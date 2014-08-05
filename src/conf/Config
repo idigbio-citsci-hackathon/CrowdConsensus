@@ -1,0 +1,17 @@
+# The key names for different tasks
+key: filename
+# The labels within the tasks
+label: Country
+label: State/Province
+    trans: StateUpperTable
+label: County
+label: Location
+    trans: LocationRevAbbrTable
+    func: normalizePLSS;normalizeLatLong
+label: Scientific name
+label: Scientific author
+    func: properName
+label: Habitat and description
+label: Collected by
+    func: properName
+label: Collector Number;Collection date;collection
